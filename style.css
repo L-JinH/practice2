@@ -1,0 +1,21 @@
+#wrap {
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.header_nav1 {
+}
+
+.header_nav1 span {
+}
+
+.header_nav1 a {
+}
