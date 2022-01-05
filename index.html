@@ -10,8 +10,10 @@
     <body>
         <div id="wrap">
             <header id="nav">
-                <a href="#" class="nav_left">Google 정보</a>
-                <a href="#" class="nav_left">스토어</a>
+                <div>
+                    <a href="#" class="nav_left">Google 정보</a>
+                    <a href="#" class="nav_left">스토어</a>
+                </div>
                 <div class="nav_right">
                     <div class="nav_space">
                         <div class="nav_space-left">
@@ -19,7 +21,9 @@
                             <a href="#"> 이미지 </a>
                         </div>
                         <div class="nav_space-right">
-                            <a href="#"><i class="fas fa-th"></i></a>
+                            <div class="nav_icon-app">
+                                <a href="#"><i class="fas fa-th"></i></a>
+                            </div>
                             <div class="nav_space-right-rogin">
                                 <a href="#">로그인</a>
                             </div>
@@ -27,8 +31,34 @@
                     </div>
                 </div>
             </header>
-            <main id="main"></main>
-            <footer id="footer"></footer>
+            <main id="main">
+                <div class="main_search">
+                    <img src="img/main-rogo.png" alt="로고 이미지" />
+                </div>
+                <div class="main_icon">
+                    <input type="text" />
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-microphone"></i>
+                    <button class="bth"></button>
+                    <button class="bth"></button>
+                </div>
+            </main>
+            <footer id="footer">
+                <div class="footer_top">대한민국</div>
+                <div class="footer_bottom">
+                    <div class="footer_bottom-link">
+                        <a href="#">광고</a>
+                        <a href="#">비즈니스</a>
+                        <a href="#">검색의 원리</a>
+                    </div>
+                    <div class="footer_bottom-link">
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">약관</a>
+                        <button>설정</button>
+                    </div>
+                </div>
+            </footer>
         </div>
 
         <script
