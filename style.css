@@ -167,6 +167,19 @@ body {
     outline: none;
 }
 
+.main_btn {
+    padding-top: 18px;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.main_btn .btn {
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+}
+
 /* @media
 더 공부해서 적용하기.
 */
