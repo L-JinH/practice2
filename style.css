@@ -120,6 +120,9 @@ body {
     align-items: center;
     height: 160px;
     width: 100vw;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-top: 40px;
 }
 
 .main_search {
@@ -129,7 +132,44 @@ body {
 
 .main_icon {
     padding: 5px 8px 0 14px;
+    width: 584px;
+    height: 46px;
+    border: 1px solid #70757a;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    color: #70757a;
 }
+
+.main_icon > i {
+    padding: 0 13px 0 0;
+}
+
+.main_icon-right {
+    padding: 4px;
+    margin-top: -4px;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.main_icon-right > i {
+    padding: 8px;
+}
+
+.main_icon input {
+    width: 475px;
+    height: 34px;
+    margin-top: -5px;
+    border: none;
+}
+
+.main_icon input:focus {
+    outline: none;
+}
+
+/* @media
+더 공부해서 적용하기.
+*/
 
 #footer {
     background-color: #f2f2f2;
