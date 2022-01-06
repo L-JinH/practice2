@@ -209,6 +209,11 @@ body {
     align-items: center;
 }
 
+.footer_bottom-link > a:hover,
+.footer_bottom-link > button:hover {
+    text-decoration: underline;
+}
+
 .footer_bottom a,
 button {
     text-decoration: none;
